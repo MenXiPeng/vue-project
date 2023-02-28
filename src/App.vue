@@ -1,12 +1,16 @@
 <template>
-  <header>
-    <NavVue />
-  </header>
+  <div class="common-layout">
+    <el-container>
+      <el-header>
+        <NavVue />
+      </el-header>
+      <el-main>
 
-  <main>
-
-  </main>
+      </el-main>
+    </el-container>
+  </div>
 </template>
+
 <script setup>
 import NavVue from './components/Nav.vue'
 
